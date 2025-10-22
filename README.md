@@ -9,8 +9,14 @@ Die Marktkommunikation bildet das Rückgrat der liberalisierten Energiemärkte i
 
 Vorschläge für neue Einträge? Nutze die Issue-Templates: https://github.com/energychain/awesome-marktkommunikation-deutschland/issues/new/choose
 
+> **⭐ Finde diese Liste hilfreich? Star it!** | Neu hier? <a href="#getting-started">Start Guide</a> | <a href="CONTRIBUTING.md">Contributing Guide</a>
+
+---
+
+
 ## Contents
 
+- [Getting Started](#getting-started)
 - [Offizielle Regulierung & Gesetze](#offizielle-regulierung--gesetze)
 - [BDEW Veröffentlichungen & Standards](#bdew-veröffentlichungen--standards)
 - [EDI@Energy Formate](#edienergy-formate)
@@ -29,6 +35,12 @@ Vorschläge für neue Einträge? Nutze die Issue-Templates: https://github.com/e
 - [Open Source Projekte](#open-source-projekte)
 - [Konferenzen & Events](#konferenzen--events)
 - [Maintainers](#maintainers)
+
+## Getting Started
+
+- Star das Repository, um Updates zu verfolgen und die Liste zu unterstützen.
+- Nutze die Navigationsübersicht unter "Contents", um gezielt Kategorien zu finden.
+- Prüfe vor Vorschlägen die vorhandenen Einträge und reiche Ergänzungen über das Issue-Template oder direkt per Pull Request ein.
 
 ## Offizielle Regulierung & Gesetze
 
@@ -58,7 +70,7 @@ Vorschläge für neue Einträge? Nutze die Issue-Templates: https://github.com/e
 - [Kontaktdatenblatt](https://www.edi-energy.de/index.php?id=428) - Verzeichnis der Marktteilnehmer.
 - [MSCONS - Metered Services Consumption Report](https://www.edi-energy.de/index.php?id=38&tx_bdew_bdew%5Buid%5D=960) - Verbrauchsdatennachricht.
 - [ORDERS - Purchase Order Message](https://www.edi-energy.de/index.php?id=38&tx_bdew_bdew%5Buid%5D=962) - Bestellnachricht.
-- [PARTIN - Partnerdatenänderung](https://www.bdew-mako.de/documents) - Dokumente zu PARTIN (AHB/MIG) – über die Suche auffindbar.
+- [PARTIN - Partnerdatenänderung](https://www.bdew-mako.de/documents?search=PARTIN) - Dokumente zu PARTIN (AHB/MIG) – über die Suche auffindbar.
 - [PRICAT - Price/Sales Catalogue Message](https://www.edi-energy.de/index.php?id=38&tx_bdew_bdew%5Buid%5D=963) - Preisblatt.
 - [REMADV - Remittance Advice Message](https://www.edi-energy.de/index.php?id=38&tx_bdew_bdew%5Buid%5D=964) - Zahlungsavis.
 - [UTILMD - Utilities Master Data Message](https://www.edi-energy.de/index.php?id=38&tx_bdew_bdew%5Buid%5D=958&tx_bdew_bdew%5Baction%5D=show) - Stammdatennachricht.
@@ -72,11 +84,10 @@ Vorschläge für neue Einträge? Nutze die Issue-Templates: https://github.com/e
 - [Mehr-/Mindermengenabrechnung](https://www.bdew.de/energie/mehr-mindermengenabrechnung/) - GPKE 2.5 Prozesse.
 - [Netznutzungsabrechnung](https://www.bdew.de/energie/netznutzungsabrechnung/) - Abrechnungsprozesse zwischen VNB und Lieferant.
 - [Redispatch 2.0](https://www.bdew.de/energie/redispatch/) - Neue Redispatch-Prozesse.
-- [Steuerbare Verbrauchseinrichtungen (§14a EnWG)](https://www.bundesnetzagentur.de/DE/Fachthemen/ElektrizitaetundGas/VNBundUeNB/Steuerbare-Verbrauchseinrichtungen/steuerbare-verbrauchseinrichtungen-node.html) - Vorgaben und Hinweise der BNetzA.
+- [Steuerbare Verbrauchseinrichtungen (§14a EnWG)](https://www.gesetze-im-internet.de/enwg/__14a.html) - Gesetzlicher Rahmen für steuerbare Verbrauchseinrichtungen.
 
 ## Bundesnetzagentur Ressourcen
 
-- [BK06 Aktuelles](https://www.bundesnetzagentur.de/DE/Beschlusskammern/BK06/BK6_aktuell/BK6_Aktuell_node.html) - Laufende Informationen der Beschlusskammer 6.
 - [BNetzA Homepage](https://www.bundesnetzagentur.de/) - Bundesnetzagentur.
 - [Festlegungen zur Marktkommunikation](https://www.bundesnetzagentur.de/DE/Beschlusskammern/BK06/BK6_81_GPKE_GeLiGas/BK6_81_GPKE_node.html) - Offizielle Festlegungen der BNetzA.
 - [Lieferantenliste](https://www.bundesnetzagentur.de/DE/Vportal/Energie/Lieferantenliste/start.html) - Registrierte Energielieferanten.
