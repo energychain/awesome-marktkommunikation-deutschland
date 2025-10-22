@@ -1,0 +1,12 @@
+# CODEOWNERS
+# We recommend assigning review responsibility to a small group to ensure consistent quality.
+# Use GitHub handles for users or teams. Teams must be in the form @org/team-name.
+# Examples:
+# *       @org/awesome-maintainers
+# docs/*  @org/docs-team
+# README.md @org/list-curators
+#
+# TODO: Replace the examples above with your actual owners, e.g.:
+# * @energychain/<team-name>
+@energychain/stromdao
+@stromdao/zoernert

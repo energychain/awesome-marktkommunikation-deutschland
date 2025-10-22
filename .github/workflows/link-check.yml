@@ -1,0 +1,19 @@
+name: link-check
+
+on:
+  pull_request:
+  schedule:
+    - cron: '0 5 * * 1' # montags 05:00 UTC
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Lychee link checker
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --no-progress --max-concurrency 4 README.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

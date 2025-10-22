@@ -1,0 +1,60 @@
+name: Vorschlag: Neuer Link
+description: Schlagen Sie eine neue Ressource für die Awesome-Liste vor
+labels: [vorschlag]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Name der Ressource
+      placeholder: GPKE – Geschäftsprozesse zur Kundenbelieferung mit Elektrizität
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Kurzbeschreibung (1–2 Sätze)
+      placeholder: Warum ist diese Ressource relevant?
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Kategorie
+      options:
+        - Offizielle Regulierung & Gesetze
+        - BDEW Veröffentlichungen & Standards
+        - EDI@Energy Formate
+        - Marktprozesse
+        - Bundesnetzagentur Ressourcen
+        - Messstellenbetrieb & Smart Meter
+        - Software & Tools
+        - Dienstleister & IT-Services
+        - Datenformate & Validierung
+        - Codelisten & Stammdaten
+        - APIs & Schnittstellen
+        - Testumgebungen
+        - Bildung & Weiterbildung
+        - Verbände & Organisationen
+        - Fachportale & Blogs
+        - Open Source Projekte
+        - Konferenzen & Events
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Prüfliste
+      options:
+        - label: Link ist erreichbar (kein 404/403)
+          required: true
+        - label: Keine Dublette eines bestehenden Eintrags
+          required: true
+        - label: Beschreibung endet mit einem Punkt
+          required: true

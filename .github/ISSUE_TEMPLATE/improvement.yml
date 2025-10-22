@@ -1,0 +1,26 @@
+name: Verbesserung bestehender Eintrag
+description: Melden Sie Korrekturen, neue Quelle oder Umkategorisierung
+labels: [verbesserung]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Betroffener Eintrag (Name oder Link)
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Vorschlag
+      placeholder: Beschreiben Sie die gewünschte Änderung und warum sie sinnvoll ist.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Prüfliste
+      options:
+        - label: Änderung entspricht den Stilregeln
+          required: true
+        - label: Quellen sind verlinkt (falls relevant)
+          required: false
