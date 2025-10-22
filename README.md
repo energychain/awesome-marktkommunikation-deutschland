@@ -84,7 +84,7 @@ Vorschläge für neue Einträge? Nutze die Issue-Templates: https://github.com/e
 - [Mehr-/Mindermengenabrechnung](https://www.bdew.de/energie/mehr-mindermengenabrechnung/) - GPKE 2.5 Prozesse.
 - [Netznutzungsabrechnung](https://www.bdew.de/energie/netznutzungsabrechnung/) - Abrechnungsprozesse zwischen VNB und Lieferant.
 - [Redispatch 2.0](https://www.bdew.de/energie/redispatch/) - Neue Redispatch-Prozesse.
-- [Steuerbare Verbrauchseinrichtungen (§14a EnWG)](https://www.gesetze-im-internet.de/enwg/__14a.html) - Gesetzlicher Rahmen für steuerbare Verbrauchseinrichtungen.
+- [Steuerbare Verbrauchseinrichtungen (§14a EnWG)](https://www.gesetze-im-internet.de/enwg_2005/__14a.html) - Gesetzlicher Rahmen für steuerbare Verbrauchseinrichtungen.
 
 ## Bundesnetzagentur Ressourcen
 
@@ -202,6 +202,7 @@ Vorschläge für neue Einträge? Nutze die Issue-Templates: https://github.com/e
 - [MaKo Process Engine](https://github.com/energychain/mako-process-engine) - Process Engine für Marktkommunikation (STROMDAO).
 - [MaStR Download-Tool](https://github.com/OpenEnergyPlatform/data-preprocessing) - Tools für MaStR-Daten.
 - [MIG-meldepflicht](https://github.com/Hochfrequenz/MIG_meldepflicht) - Meldepflicht-Strukturen.
+- [msconsconverter](https://github.com/vdmitriyev/msconsconverter) - Konvertiert MSCONS (EDIFACT) in CSV über eine CLI.
 - [Open Power System Data](https://open-power-system-data.org/) - Offene Energiesystemdaten.
 - [phase4 (AS4 eDelivery)](https://github.com/phax/phase4) - Open-Source-Bibliothek für AS4/eDelivery.
 - [Willi Mako Client](https://github.com/energychain/willi-mako-client) - Client SDK für Willi Mako KI-Coach (STROMDAO).
