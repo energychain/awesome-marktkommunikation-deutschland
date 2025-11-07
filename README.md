@@ -207,6 +207,7 @@ Vorschläge für neue Einträge? Nutze die Issue-Templates: https://github.com/e
 - [msconsconverter](https://github.com/vdmitriyev/msconsconverter) - Konvertiert MSCONS (EDIFACT) in CSV über eine CLI.
 - [Open Power System Data](https://open-power-system-data.org/) - Offene Energiesystemdaten.
 - [phase4 (AS4 eDelivery)](https://github.com/phax/phase4) - Open-Source-Bibliothek für AS4/eDelivery.
+- [Top 6 edifact Open-Source Projects | LibHunt](https://www.libhunt.com/topic/edifact) - Which are the best open-source edifact projects? This list will help you: omniparser, Electronic-Int
 - [Willi Mako Client](https://github.com/energychain/willi-mako-client) - Client SDK für Willi Mako KI-Coach (STROMDAO).
 
 ## Konferenzen & Events
