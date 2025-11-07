@@ -148,6 +148,7 @@ Vorschläge für neue Einträge? Nutze die Issue-Templates: https://github.com/e
 - [AS4 - OASIS ebMS 3.0 AS4 Profile](https://www.oasis-open.org/committees/ebxml-msg/) - Standard für den sicheren B2B-Datenaustausch.
 - [BO4E REST API](https://github.com/Hochfrequenz/bo4e-python-generator) - REST API Generator für BO4E.
 - [EDI Energy API](https://github.com/Hochfrequenz/edifact-templates) - Templates für EDIFACT-Nachrichten.
+- [GitHub - bundesAPI/marktstammdaten-api: Dokumentation der APIs des ...](https://github.com/bundesAPI/marktstammdaten-api) - Marktstammdaten-API Dokumentation der APIs des Marktstammdatenregisters
 - [MaStR Webservice](https://www.marktstammdatenregister.de/MaStRHilfe/subpages/webdienst.html) - SOAP API für das Marktstammdatenregister.
 - [SMGW Web Services](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03109/TR-03109-1_Anlage_WS_V1_0.html) - Smart Meter Gateway Webservices.
 
