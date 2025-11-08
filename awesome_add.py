@@ -10,7 +10,7 @@ import re
 import subprocess
 import sys
 from typing import List, Optional
-from awesome_common import SearchResult
+from awesome_common import SearchResult, clean_description
 from awesome_finder import AwesomeFinder
 
 
@@ -251,17 +251,19 @@ class AwesomeAdder:
                 continue
             elif choice == 'y':
                 # Extrahiere kurze Beschreibung aus Content
-                desc = result.content[:100].split('.')[0] if result.content else ""
+                desc = clean_description(result.content) if result.content else ""
                 if self.add_entry_with_commit(result.category, result.title, result.url, desc):
                     added_count += 1
             elif choice == 'e':
                 desc = input("Beschreibung eingeben: ").strip()
+                # Stelle sicher dass Beschreibung mit Punktierung endet
+                desc = clean_description(desc) if desc else ""
                 if self.add_entry_with_commit(result.category, result.title, result.url, desc):
                     added_count += 1
             elif choice == 'c':
                 new_category = input("Neue Kategorie: ").strip()
                 result.category = new_category
-                desc = result.content[:100].split('.')[0] if result.content else ""
+                desc = clean_description(result.content) if result.content else ""
                 if self.add_entry_with_commit(result.category, result.title, result.url, desc):
                     added_count += 1
 

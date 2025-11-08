@@ -7,6 +7,44 @@ from dataclasses import dataclass
 from typing import Set
 
 
+def clean_description(text: str, max_length: int = 120) -> str:
+    """
+    Bereinigt und kürzt eine Beschreibung für die Awesome Liste.
+
+    - Entfernt überflüssige Whitespaces
+    - Kürzt auf max_length Zeichen bei Satzende
+    - Stellt sicher, dass die Beschreibung mit einem Punkt endet
+    """
+    if not text:
+        return ""
+
+    # Entferne überflüssige Whitespaces
+    text = " ".join(text.split())
+
+    # Wenn kürzer als max_length, stelle nur sicher dass Punkt am Ende ist
+    if len(text) <= max_length:
+        if not text.endswith(('.', '!', '?')):
+            text += '.'
+        return text
+
+    # Kürze bei Satzende
+    sentences = re.split(r'([.!?]\s+)', text[:max_length + 50])
+    result = ""
+
+    for i, part in enumerate(sentences):
+        if len(result + part) > max_length:
+            break
+        result += part
+
+    result = result.strip()
+
+    # Stelle sicher dass mit Punktierung endet
+    if result and not result.endswith(('.', '!', '?')):
+        result += '.'
+
+    return result
+
+
 @dataclass
 class SearchResult:
     """Repräsentiert ein Suchergebnis"""
