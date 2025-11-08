@@ -1,0 +1,19 @@
+# Whitelist for lychee link checker to skip known problematic domains
+exclude = [
+  'regex:https://www\.bdew\.de/.*',
+  'regex:https://bdew-codes\.de/.*',
+  'regex:https://www\.edi-energy\.de/.*',
+  'regex:https://www\.bsi\.bund\.de/.*',
+  'regex:https://www\.bundesnetzagentur\.de/.*',
+  'https://www.energybrainpool.com/academy/',
+  'https://www.forum-energiehandel.de/',
+  'regex:https://unece\.org/.*',
+  'https://www.imsysforum.de/',
+  'https://www.bo4e.org/',
+  'https://github.com/Hochfrequenz/edifact-bo4e-converter',
+  'https://github.com/Hochfrequenz/edifact-templates',
+  'https://github.com/Hochfrequenz/MIG_meldepflicht',
+  'regex:https://www\.vde\.com/.*',
+  'https://www.vwew.de/',
+  'https://www.gesetze-im-internet.de/gasnzv/'
+]

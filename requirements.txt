@@ -1,0 +1,2 @@
+# Requirements für Awesome Finder Tools
+# Keine externen Dependencies benötigt - nutzt nur Python Standard Library

@@ -1,0 +1,12 @@
+src/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Tool exports
+*-results.json
+test-*.json
