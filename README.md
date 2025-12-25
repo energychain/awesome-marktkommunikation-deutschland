@@ -107,6 +107,7 @@ Vorschläge für neue Einträge? Nutze die Issue-Templates: https://github.com/e
 
 - [EDI Energy AHB](https://github.com/Hochfrequenz/machine-readable_anwendungshandbuecher) - Maschinenlesbare Anwendungshandbücher.
 - [Hochfrequenz edi_energy_mirror](https://github.com/Hochfrequenz/edi_energy_mirror) - Mirror der EDI@Energy Seite mit maschinenlesbaren Formaten.
+- [kinergia.de](https://kinergia.de/) - Strategische KI für die Energiewirtschaft.
 - [OpenMETER](https://openmeter.de/) - Open Source Software für die Energiewirtschaft.
 - [PONTON AS4 Marktkommunikation](https://www.ponton.de/as4-marktkommunikation) - AS4-Lösungen und Betrieb für die Energiewirtschaft.
 - [Willi Mako](https://stromhaltig.de/app/) - Premium KI-Coach für die Marktkommunikation in der deutschen Energiewirtschaft.
@@ -185,12 +186,14 @@ Vorschläge für neue Einträge? Nutze die Issue-Templates: https://github.com/e
 
 - [Energy Charts](https://energy-charts.info/) - Fraunhofer ISE Datenvisualisierung.
 - [Energate Messenger](https://www.energate-messenger.de/) - Nachrichten zur Energiewirtschaft.
+- [enerchy.de](https://enerchy.de/) - Regulatorik und MaKo KI-Chatbot.
 - [Energiewende direkt](https://www.energiewende-direkt.de/) - Portal zur Energiewende.
 - [Montel News](https://www.montelnews.com/de/) - Energiemarkt News.
 - [Next Kraftwerke Blog](https://www.next-kraftwerke.de/wissen) - Blog zu virtuellen Kraftwerken.
 - [Powabase](https://powabase.com/) - Wissensdatenbank und Informationsportal für die Energiewirtschaft.
 - [PV Magazine](https://www.pv-magazine.de/) - Photovoltaik News.
 - [SMARD - Strommarktdaten](https://www.smard.de/) - BNetzA Marktdaten-Portal.
+- [willi-mako.de](https://willi-mako.de/) - FAQ Sammlung der Marktkommunikation in Deutschland.
 
 ## Open Source Projekte
 
